@@ -16,6 +16,11 @@ public class HelloWorldController {
         return "Hello, Akash!";
     }
 
+    @GetMapping("/how")
+    public String Hello() {
+        return "Hello, Vikash!";
+    }
+
     @GetMapping("/students")
     public List<Student> getStudents() {
         // Create a list of students
