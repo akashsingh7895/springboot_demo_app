@@ -21,6 +21,12 @@ public class HelloWorldController {
         return "Hello, Vikash!";
     }
 
+
+    @GetMapping("/king")
+    public String king() {
+        return "Hello, Viddascacsh!";
+    }
+
     @GetMapping("/students")
     public List<Student> getStudents() {
         // Create a list of students
